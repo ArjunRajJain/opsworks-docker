@@ -12,7 +12,7 @@ end
 
 # Install Docker latest version
 package "docker" do
-  package_name "lxc-docker"
+  package_name "lxc-docker=1.6.0"
   action :install
 end
 
